@@ -19,6 +19,14 @@
             android:layout_marginTop="32dp"
             android:layout_marginRight="20dp">
 
+            <ImageView
+                android:id="@+id/chatbot"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/chatbot" />
+
             <TextView
                 android:id="@+id/txtdashboard"
                 android:layout_width="wrap_content"
@@ -207,7 +215,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Prescription \n Download"
+                        android:text="Prescription \n Retrieve"
                         android:textAlignment="center"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="#137a63"

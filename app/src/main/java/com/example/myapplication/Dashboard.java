@@ -7,10 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Dashboard extends AppCompatActivity {
     public CardView card1, card2,card3,card4,card5,card6;
-    public Intent i1, i2, i3, i4,i5,i6;
+    public ImageView image1;
+    public Intent i1, i2, i3, i4,i5,i6,i7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class Dashboard extends AppCompatActivity {
         card4 = (CardView) findViewById(R.id.cardView4);
         card5 = (CardView) findViewById(R.id.cardView5);
         card6 = (CardView) findViewById(R.id.cardView6);
+        image1 = (ImageView) findViewById(R.id.chatbot);
 
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +67,13 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(View view) {
                 i6 = new Intent(Dashboard.this, CallButton.class);
                 startActivity(i6);
+            }
+        });
+        image1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                i7 = new Intent(Dashboard.this, Chatbot.class);
+                startActivity(i7);
             }
         });
 

@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Project Description
+Project Description 
 
 <!-- CREDITS -->
 ## CREDITS
