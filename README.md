@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Project Description 
+Rxpert is a health app, which has been designed while mainly keeping senior citizens in mind, therefore the key element that we wish to reflect through the design of our app is simplicity, which leads to its ease of use. 
 
 <!-- CREDITS -->
 ## CREDITS
