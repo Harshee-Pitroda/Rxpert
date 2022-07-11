@@ -16,7 +16,7 @@ This project is developed by:
 * [Prajakta Mungekar](https://github.com/PrajaktaMungekar)
 * [Shwetha Ajay](https://github.com/ShwethaAjay)
 
-This project is developed by:
+This project is mentored by: 
 * [Harshee Pitroda](https://github.com/Harshee-Pitroda)
 
 ## Built With
